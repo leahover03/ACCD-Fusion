@@ -8,6 +8,11 @@ background-attachment: scroll !important;
 height: 100vh; /* Full height of the viewport */
   width: 100%;} /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
+.bg-custom-light{
+  background-color: #C3B1C8 !important ;
+}
+
+
 h1{text-align:center !important; 
     font-family: poppins !important;
     font-size: 35px }
@@ -23,8 +28,6 @@ h1{text-align:center !important;
   font-size:20px !important}
 
    .circle-img {
-        width: 370px; /* Set width */
-        height: 250px; /* Set height */
         border-radius: 10%; /* Makes the image circular */
         border: 3px solid purple; /* Optional: adds a border around the circle */
         object-fit: cover; /* Ensures the image fits well inside the circle */
@@ -32,14 +35,14 @@ h1{text-align:center !important;
 
 
 .highlight{
-  background-color: lightsteelblue; !important;
+  background-color: lightgoldenrodyellow; !important;
   padding: 0.2em 0.4em !important;
   border-radius:4px !important;
 }
 
 .carousel-inner img {
         width: 900px; /* Fixed width */
-        height: 300px; /* Fixed height */
+        height: 400px; /* Fixed height */
         object-fit: contain; /* Ensures the entire image is visible */
         justify-items: center !important;
         align-items: center !important;
