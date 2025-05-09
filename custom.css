@@ -44,9 +44,12 @@ h1{text-align:center !important;
         width: 900px; /* Fixed width */
         height: 400px; /* Fixed height */
         object-fit: contain; /* Ensures the entire image is visible */
+        display: flex;
         justify-items: center !important;
         align-items: center !important;
     }
+
+
 
 
 .contact-form{
